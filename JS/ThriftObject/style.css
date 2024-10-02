@@ -1,0 +1,30 @@
+h1,
+h3 {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cover {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.delete-btn {
+  padding: 0.8rem;
+  background-color: brown;
+  color: white;
+  font-weight: 600;
+  margin: auto;
+  cursor: pointer;
+}
+
+.warning-message {
+  color: brown;
+  font-size: 3rem;
+}

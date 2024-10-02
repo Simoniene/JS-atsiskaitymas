@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+.card-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border: 2px solid brown;
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.imgContainer {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+}
+.thrift-link {
+  background-color: pink;
+  color: green;
+}
+.link-wrapper {
+  margin: auto;
+  text-align: center;
+}

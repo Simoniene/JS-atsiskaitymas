@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  padding-top: 1.4rem;
+  color: rgb(125, 125, 125);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+  margin: auto;
+}
+form input {
+  padding: 0.5rem;
+  border: 2px solid black;
+  font-size: 0.9rem;
+}
+form button {
+  padding: 0.5rem;
+  border: 2px solid black;
+  font-size: 0.9rem;
+  background-color: rgb(157, 157, 157);
+}
+.success {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+body {
+  background-image: url(https://media.gettyimages.com/id/933274618/video/defocused-particles-background-loop.jpg?s=640x640&k=20&c=_ji_-h7yYkNxtAjpT_3sX1eAG_jvRPVzeylrKnsxPwU=);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.25rem;
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+}

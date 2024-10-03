@@ -1,0 +1,85 @@
+h1,
+h3 {
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.cover {
+  border: 1px solid black;
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+}
+.delete-btn {
+  padding: 0.8rem;
+  background-color: rgb(177, 131, 12);
+  color: white;
+  font-weight: 600px;
+  margin: auto;
+  cursor: pointer;
+}
+.warning-message {
+  color: white;
+  font-size: 2rem;
+}
+.return-btn {
+  padding: 0.8rem;
+  background-color: rgb(177, 131, 12);
+  color: white;
+  font-weight: 600px;
+  margin: auto;
+  cursor: pointer;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  background-image: url(https://media.gettyimages.com/id/933274618/video/defocused-particles-background-loop.jpg?s=640x640&k=20&c=_ji_-h7yYkNxtAjpT_3sX1eAG_jvRPVzeylrKnsxPwU=);
+  background-size: cover;
+}
+.wrapper {
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    gap: none;
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .return-btn,
+  .delete-btn {
+    padding: 0.6rem;
+    font-weight: 400px;
+  }
+  .warning-message {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    gap: none;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .return-btn,
+  .delete-btn {
+    padding: 0.5rem;
+    font-weight: 200px;
+  }
+  .warning-message {
+    color: white;
+    font-size: 1rem;
+  }
+}

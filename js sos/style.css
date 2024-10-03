@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+.card-img {
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+}
+.card {
+  border: 2px solid black;
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5-XMjau4MMHsV_8lEoKbX69jnxm3nCxhLuw&s);
+  background-size: cover;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+}
+.thrift-link {
+  padding: 0.8rem;
+  background-color: rgb(126, 121, 121);
+  color: white;
+  font-size: 1rem;
+  border: 2px SOLID black;
+}
+.link-wrapper {
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://media.gettyimages.com/id/933274618/video/defocused-particles-background-loop.jpg?s=640x640&k=20&c=_ji_-h7yYkNxtAjpT_3sX1eAG_jvRPVzeylrKnsxPwU=);
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .card-img {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  .thrift-link {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-img {
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+  }
+  a {
+    font-size: 0.7rem;
+  }
+  .thrift-link {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+}

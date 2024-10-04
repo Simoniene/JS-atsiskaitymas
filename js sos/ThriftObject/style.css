@@ -37,7 +37,6 @@ h3 {
 .button-wrapper {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
 }
 body {
   background-image: url(https://media.gettyimages.com/id/933274618/video/defocused-particles-background-loop.jpg?s=640x640&k=20&c=_ji_-h7yYkNxtAjpT_3sX1eAG_jvRPVzeylrKnsxPwU=);

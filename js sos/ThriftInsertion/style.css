@@ -20,6 +20,7 @@ form button {
   border: 2px solid black;
   font-size: 0.9rem;
   background-color: rgb(157, 157, 157);
+  cursor: pointer;
 }
 .success {
   font-size: 2rem;

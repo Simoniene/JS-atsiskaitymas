@@ -1,7 +1,7 @@
 const title = document.getElementById("title");
 const img = document.getElementById("coverUrl");
 const productDescription = document.getElementById("productDescription");
-const location = document.getElementById("location");
+const locationPlace = document.getElementById("location");
 const price = document.getElementById("price");
 const returnBtn = document.getElementById("return-btn");
 const successMessage = document.createElement("p");
@@ -10,7 +10,7 @@ successMessage.setAttribute("class", "success");
 const insertThrift = async () => {
   const data = {
     title: title.value,
-    img: coverUrl.value,
+    img: img.value,
     productDescription: productDescription.value,
     locationPlace: location.value,
     price: price.value,

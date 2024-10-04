@@ -49,5 +49,5 @@ deleteBtn.addEventListener("click", async () => {
   }
 });
 returnBtn.addEventListener("click", () => {
-  window.location.href = "../index.html"; // Čia įvesk norimą URL
+  window.location.href = "../index.html";
 });

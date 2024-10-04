@@ -29,7 +29,7 @@ const deleteThriftObject = async () => {
 };
 const buildScreen = (data) => {
   title.innerText = data.title;
-  thriftImg.src = data.coverUrl;
+  thriftImg.src = data.img;
   productDescription.innerText = data.productDescription;
   locationPlace.innerText = data.location;
   price.innerText = data.price;

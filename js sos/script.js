@@ -14,17 +14,13 @@ const buildCards = (thriftObjects) => {
     card.href = `./ThriftObject/index.html?id=${thriftObject.id}`;
     const title = document.createElement("h2");
     const img = document.createElement("img");
-    const productDescription = document.createElement("h3");
-    const location = document.createElement("h3");
     const price = document.createElement("h2");
 
     title.innerText = thriftObject.title;
-    img.src = thriftObject.coverUrl;
+    img.src = thriftObject.img;
     img.setAttribute("class", "card-img");
-    productDescription.innerText = thriftObject.productDescription;
-    location.innerText = thriftObject.location;
     price.innerText = `${thriftObject.price} EUR`;
-    card.append(title, img, productDescription, location, price);
+    card.append(title, img, price);
     cardWrapper.append(card);
   });
 };

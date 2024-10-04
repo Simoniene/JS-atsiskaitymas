@@ -18,7 +18,7 @@ a {
 }
 .card {
   border: 2px solid black;
-  height: 400px;
+  height: 300px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -65,8 +65,10 @@ body {
     padding: 0.7rem;
     font-size: 0.9rem;
   }
+  .card {
+    height: 220px;
+  }
 }
-
 @media only screen and (max-width: 480px) {
   .card-img {
     height: 80px;
@@ -79,5 +81,8 @@ body {
   .thrift-link {
     padding: 0.6rem;
     font-size: 0.8rem;
+  }
+  .card {
+    height: 200px;
   }
 }
